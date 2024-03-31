@@ -6,6 +6,7 @@ sys.stdin = open("./2_heaps/find_median_from_data_stream/input.txt", "r")
 sys.stdout = open("./2_heaps/find_median_from_data_stream/output.txt", "w")
 
 
+
 class MedianFinder:
     def __init__(self):
         self.smaller_pq = []
